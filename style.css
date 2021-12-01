@@ -2,6 +2,18 @@
     src: url(fonts/bpg_nino_mtavruli_normal.otf);
     font-family: font;
 }
+@font-face{
+    src: url(fonts/dm-medea.ttf);
+    font-family: medea;
+}
+@font-face{
+    src: url(fonts/!kolxeti_96.ttf);
+    font-family: kolxeti;
+}
+@font-face{
+    src: url(fonts/bpg_glaho.ttf);
+    font-family: glakho;
+}
 *{
 margin: 0;
 padding: 0;
@@ -18,7 +30,7 @@ header{
    position: relative;
    width: 90%;
    margin: 0 auto;
-   background-color: red;
+   background: linear-gradient(#ee1a1a, #7c0505);
    border-radius: 5px;
    border:solid white 2px;
    position: relative;
@@ -41,7 +53,7 @@ header{
 .nav-bar li a:hover{
     background-color: #fff;
     color: red;
-    border-radius: 5px;
+    border-radius:80%;
 }
 .nav-bar a{
     text-decoration: none;
@@ -49,13 +61,14 @@ header{
     font-size: 1.4rem;
  padding: 20px;
  transition: all 0.6s;
+ font-family:glakho;
 }
 .logo img{
     transition: 0.3s;
     width: 20%;
     height:100%;
     cursor: pointer;
-   
+    border-radius: 50%;
     
 }
 
@@ -66,7 +79,6 @@ header{
     width: 40%;
     display: flex;
     text-align: center;
-   
     align-items: center;
   
 }
@@ -81,7 +93,7 @@ header{
 }
 
 .search-input input{
-    height: 2rem;
+    height: 1.5rem;
     border: 0ch;
     outline: 0;
     width: 100%;
@@ -106,7 +118,11 @@ header{
     padding: 2px;
     cursor: pointer;
     background-color: red;  
-  
+    background: transparent;
+    transition:  all 0.3s;
+}
+.fa-search:hover{
+  font-size: 1.8rem;
 }
 
 .left-navbar{
@@ -125,16 +141,18 @@ header{
     margin: 0 auto;
     margin-top:1%;
     width:90%;
-    
+    border:2px solid #fff;
     border-radius: 0.5rem;
     background-color: red;
+    background:  linear-gradient(#900404, #e01818);;
   
 } 
 .first h1{
 color:white;    
 text-align: center;
 padding: 20px;
-text
+font-family: glakho;
+
 
 }
 .container img{
@@ -144,8 +162,10 @@ text
     border-radius: 5px;
 }
 .container p{
-    color: white;
+    color: rgb(255, 255, 255);
     margin-top: 20px;
+    font-size: medium;
+    font-family: glakho;
 }
 
 
